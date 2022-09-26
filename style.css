@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: lightgrey;
+}
+
+:root{
+    --main-color: lightyellow;
+    --secondary-color: lightpink;
+}
+
+@font-face {
+    font-family: "argonite";
+    src: url('insert src here from folder');
+}
+
+
+/* removing links for the future hamburger menu */
+.links {
+    display: none;
+}
